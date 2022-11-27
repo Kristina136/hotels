@@ -64,3 +64,16 @@ nav{
   color: black;
   text-transform: uppercase;
 }
+
+@media all and (max-width:800px){
+  .container {
+   width: 400px;
+}
+.not{
+  width: 400px;
+}
+image{
+  width: 400px;
+  height: 250px;
+}
+}
