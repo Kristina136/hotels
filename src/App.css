@@ -1,0 +1,66 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ margin: 10px;
+ width: 500px;
+ text-align: center;
+}
+.containerHeader{
+  display: flex;
+  justify-content: center;
+}
+.hotelContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.btn {
+
+  background-color: #C37B89;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  height: 100%;
+  text-transform: uppercase;
+
+}
+
+.name{
+  background-color: #cfd8dc;
+  padding: 10px;
+}
+.not{
+  background-color: #381ff1;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  width: 500px;
+  text-transform: uppercase;
+  text-align: center;
+}
+image{
+  width: 500px;
+  height: 350px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #cfd8dc;
+}
+.link{
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
