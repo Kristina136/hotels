@@ -44,7 +44,7 @@ function Alpen() {
   
     <div key={id}>
       <div id="removeAlpen" className="hotelContainer ">
-      <button onClick={lastClick} className="btn">Last</button>
+      <button onClick={lastClick} className="btn">◁</button>
       <div className="container">
       <h2 className="name">{name}</h2>
       <p>{data2[country2].showMore ? description : description.substring(0, 120)+"..."}
@@ -52,10 +52,12 @@ function Alpen() {
       </button>
       </p>
       <img src ={image} alt="hotel"/>
+
+      
       <h2 className="">{price}</h2>
       <button className="not" onClick={()=>removeItem2()}>Not interisting</button>
       </div>
-       <button onClick={nextClick} className="btn">Next</button>
+       <button onClick={nextClick} className="btn">▷</button>
       </div>
     </div>
   
