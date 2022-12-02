@@ -1,3 +1,6 @@
+body{
+  background-color: #6b989d;
+}
 .App{
   display: flex;
   flex-direction: column;
@@ -10,6 +13,25 @@
  margin: 10px;
  width: 500px;
  text-align: center;
+}
+.header{
+  text-align: center;
+  color: #873901;
+}
+.container-about{
+  display: flex;
+  justify-content: center;
+margin-top: 10px;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.btn-term{
+  padding: 5px;
+  font-size: 20px;
+  margin: 3px;
+}
+.place{
+
 }
 .containerHeader{
   display: flex;
@@ -24,7 +46,8 @@
 
 
 .btn {
-  background-color: #C37B89;
+  background-color: 
+  #be4e00;
   color: #fff;
   padding: 10px;
   border: none;
@@ -38,7 +61,7 @@
   padding: 10px;
 }
 .not{
-  background-color: #381ff1;
+  background-color: #1c2e37;
   padding: 10px;
   color: #fff;
   border: none;
@@ -46,7 +69,7 @@
   text-transform: uppercase;
   text-align: center;
 }
-image{
+img{
   width: 500px;
   height: 350px;
 }
@@ -64,6 +87,21 @@ nav{
   text-transform: uppercase;
 }
 
+.container-contact{
+font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: ;
+}
+input,select{
+  width: 400px;
+  height: 30px;
+}
+textarea{
+  width: 400px;
+  height: 70px;
+}
 
 @media all and (max-width:500px){
   html, body{

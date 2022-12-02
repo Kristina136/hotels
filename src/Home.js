@@ -11,7 +11,7 @@ function App() {
   return ( 
     <div className="App">
      <div className="containerHeader">
-  <h1>TOP place for Vacation </h1>
+  <h1 className="header">TOP place for Vacation </h1>
   </div>
   
 <Dominicana/>
