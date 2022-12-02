@@ -30,9 +30,7 @@ flex-wrap: wrap;
   font-size: 20px;
   margin: 3px;
 }
-.place{
 
-}
 .containerHeader{
   display: flex;
   justify-content: center;
@@ -91,15 +89,17 @@ nav{
 font-size: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: ;
+ justify-content: center;
+ text-align: center;
+ margin: auto;
+  width: 500px;
 }
 input,select{
-  width: 400px;
+  width: 500px;
   height: 30px;
 }
 textarea{
-  width: 400px;
+  width: 500px;
   height: 70px;
 }
 
@@ -120,5 +120,14 @@ textarea{
    width: 300px;
    height: 200px;
  }
-
+ .container-contact{
+    width: 400px;
+  }
+  input,select{
+    width: 360px !important;
+    margin: 5px ;
+  }
+  textarea{
+    width: 400px;
+  }
 }

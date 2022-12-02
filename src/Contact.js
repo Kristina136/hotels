@@ -25,9 +25,9 @@ function ContactForm() {
           field="email"
           errors={state.errors}
         />
- <label for="telephone">Telephone Number (Optional)</label>
+ <label>Telephone Number (Optional)</label>
     <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"></input>
-<label for="country">Choose the country where you want to travel</label>
+<label>Choose the country where you want to travel</label>
       <select name="country" id="country" required="">
     <option>Choose country</option>
     <option value="AF">Afghanistan</option>
@@ -306,7 +306,7 @@ function ContactForm() {
 
 
 
-        <button type="submit" disabled={state.submitting}>
+        <button className='btn' type="submit" disabled={state.submitting}>
           Submit
         </button>
       </form>
